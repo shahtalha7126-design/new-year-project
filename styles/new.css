@@ -9,7 +9,14 @@ body{
     margin: 0 auto;
 
 }
+header{
+    margin-bottom: 120px;
+}
+section{
+    margin-bottom: 120px;
+}
 /* styles for head section */
+
 .merriweather-title {
   font-family: "Merriweather", serif;
   font-optical-sizing: auto;
@@ -45,6 +52,79 @@ body{
     /* flex-direction: column; */
 }
 
+/* offer section styles */
+.offer{
+    text-align: center;
+}
+.offer h1{
+    margin-bottom: 48px;
+}
+.offer h3{
+    margin-bottom: 48px;
+}
+.offer-title{
+    font-size: 88px;
+    color: rgba(255, 0, 0, 1);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: ; */
+  font-style: normal;
+}
+
+.offer-description {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+   color: rgba(255, 0, 0, 1);
+   font-size: 24px;
+   font-weight: 500;
+}
+
+.offer-category {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  color: rgba(7, 2, 17, 1);
+  font-size: 48px;
+}
+/* styles for party banner */
+.party-banner{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0)), url(../images/Vectorrr.png);
+    width: 100%;
+    height: 600px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
 
 
-
+.merry-title {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    color: rgba(255, 255, 255, 1);
+    font-size: 64px;
+}
+.p-text{
+    width: 50%;
+}
+.p-text h1, p{
+    margin-bottom:30px;
+}
+.party-btn{
+    margin-left: 30px;
+    background:none;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    border: none;
+}
+.p-description{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+}
